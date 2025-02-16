@@ -25,11 +25,8 @@ def simple_max_pairwise_product(numbers):
     n = len(numbers)
     if n < 2:
         raise ValueError("The input list must contain at least two numbers.")
-    
-    # Sort the list in descending order
+
     sorted_numbers = sorted(numbers, reverse=True)
-    
-    # Return product of first two numbers
     return sorted_numbers[0] * sorted_numbers[1]
 
 if __name__ == "__main__":
