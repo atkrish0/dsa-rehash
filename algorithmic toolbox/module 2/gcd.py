@@ -1,17 +1,4 @@
 def gcd(a, b):
-    """
-    Compute the Greatest Common Divisor using Euclidean algorithm.
-    
-    Args:
-        a (int): First non-negative integer
-        b (int): Second non-negative integer
-    
-    Returns:
-        int: Greatest common divisor of a and b
-        
-    Raises:
-        ValueError: If either number is negative
-    """
     if a < 0 or b < 0:
         raise ValueError("Numbers must be non-negative")
         
@@ -30,3 +17,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
