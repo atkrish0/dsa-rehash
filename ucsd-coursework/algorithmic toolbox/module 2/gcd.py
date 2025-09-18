@@ -8,7 +8,6 @@ def gcd(a, b):
 
 def main():
     try:
-        # Get input from user
         a, b = map(int, input("Enter two non-negative integers separated by space: ").split())
         result = gcd(a, b)
         print(f"GCD({a}, {b}) = {result}")
